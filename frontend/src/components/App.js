@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
+import HomePage from "./HomePage";
+
 
 export default class App extends Component {
   constructor(props) {
@@ -9,10 +11,10 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>testeeeeeeeeeeeeeeeeeeeeeeeeeeeee</h1>
+        <h1> <HomePage></HomePage> </h1>
       </div>
     );
-  }
+  } 
 }
 
 const appDiv = document.getElementById("app");
